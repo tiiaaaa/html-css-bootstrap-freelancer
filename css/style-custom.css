@@ -1,10 +1,20 @@
-.my-bk-color{
-    background-color: aquamarine;
+.my-bk-blue{
+    background-color: rgb(6, 7, 78);
     border: 1px solid black;
 }
 
+.my-bk-green{
+    background-color: rgb(6, 202, 153);
+    border: 1px solid black;
+}
+
+/* Box Riempitore */
 .my-filler-box{
     height: 60px;
-    /* border: 1px solid black; */
+    border: 1px solid black;
     background-color: bisque ;
+}
+
+.my-mrg-bttm{
+    margin-bottom: 1rem;
 }
