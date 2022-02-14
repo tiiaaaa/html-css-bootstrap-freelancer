@@ -6,10 +6,6 @@
     background-color: bisque ;
 }
 
-section#portfolio{
-    background-color: rgb(188, 255, 242);
-}
-
 section#about{
     background-color: rgb(26, 188, 156);
 }
@@ -47,7 +43,7 @@ div.title-decoration div.line{
     border-radius: 10px;
 }
 
-/* MAIN sec.1*/
+/* MAIN Portfolio*/
 div.img-block img.picture{
     width: 100%;
 }
@@ -56,14 +52,39 @@ div.img-block, img.picture{
     border-radius: 10px;
 }
 
-
-
-/* FOOTER */
-div.my-footer-top{
-    background-color: rgb(58, 84, 109);
+/* MAIN  Contact */
+div#message{
+    height: 150px;
+    line-height: 60px;
 }
 
-div.my-footer-bottom{
+div.personal-data{
+    height: 50px;
+    line-height: 40px;
+}
+
+div#message, div.personal-data{
+    border-bottom: 1px solid black;
+}
+
+/* FOOTER */
+section.my-footer-top{
+    background-color: rgb(67, 103, 136);
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+div#ftr-btn-wrap button.btn{
+    border-radius: 50%;
+}
+
+span#green-text{
+    color: rgb(26, 188, 156);
+}
+
+section.my-footer-bottom{
     background-color: rgb(44, 62, 80);
 }
 
