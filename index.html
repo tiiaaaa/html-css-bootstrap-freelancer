@@ -14,167 +14,183 @@
 </head>
 <body>
     <!-- Header-->
-    <div class="container-fluid my-bk-blue my-mrg-bttm">
-    
-        <header class="container">
-            <!-- Section che dispone in row le colonne-->
-            <section class="row">
-                <div class="col-lg-4 col-md-5 col-sm-6">
-                    <div class="my-filler-box"></div>
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
-
-                <div class="col-lg-4 ms-lg-auto col-md-5 ms-md-auto col-sm-3 ms-sm-auto">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-        </header>
-    </div>
+            </div>
+        </nav>
+    </header>
     <!-- Secondo blocco -->
-    <div class="container-fluid my-bk-green my-mrg-bttm">
+    <section id="jumbotron" class="mb-4">
     
-        <div class="container">
-            <section class="row justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-5">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+        <div class="container p-5">
+            <section class="row justify-content-center text-white">
+                <div class="col-12">
+                    <div class="jumbo-box d-flex flex-column align-items-center gap-2">
+                        <img  src="img/avatar.svg" alt="immagine untente">
+                        <h1>start bootstrap</h1>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-9">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+                        <div class="title-decoration d-flex align-items-center gap-3">
+                            <div class="line my-bg-white"></div>
+                            <i class="fas fa-star"></i>
+                            <div class="line my-bg-white"></div>
+                        </div>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-6">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+                        <div id="profession">
+                            <span class="fs-5">graphic artist -</span>
+                            <span class="fs-5">web designer -</span>
+                            <span class="fs-5">illustrator</span>
+                        </div>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-6 col-md-6 col-sm-11">
-                    <div class="my-filler-box"></div>
+                    </div>
                 </div>
             </section>
         </div>
-    </div>
-    <!-- Terzo blocco -->
-    <div class="container-fluid my-mrg-bttm">
+    </section>
     
-        <div class="container">
-            <section class="row justify-content-center">
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+    <main>
+        <!-- Terzo blocco -->
+        <section id="portfolio" class="mb-4">
+            <div class="container py-5">
+                <section class="row justify-content-center mb-3">
+                    <div class="col-12">
+                        <div class="jumbo-box d-flex flex-column align-items-center">
+                            <h1>portfolio</h1>
+                            <div class="title-decoration d-flex align-items-center gap-3">
+                                <div class="line my-bg-black"></div>
+                                <i class="fas fa-star"></i>
+                                <div class="line my-bg-black"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-6">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-
-            <section class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="my-filler-box"></div>
-                </div>   
-            </section>
-        </div>
-    </div>
-    <!-- Quarto blocco -->
-    <div class="container-fluid my-bk-green my-mrg-bttm">
-        
-        <div class="container">
-            <section class="row justify-content-center">
-                <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-
-            <section class="row justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-
-            <section class="row justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-10">
-                    <div class="my-filler-box"></div>
-                </div>
-
-                <div class="col-lg-5 col-md-5 col-sm-10">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-
-            <section class="row justify-content-center">
-                <div class="col-lg-2 col-md-2 col-sm-4">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- Quinto blocco -->
-    <div class="container-fluid my-mrg-bttm">
+                <section class="row gy-3 gx-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <img class="picture" src="img/cabin.png" alt="casa di legno">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="my-filler-box"></div>
+                    </div>   
+                </section>
+            </div>
+            
+        </section>
+        <!-- Quarto blocco -->
+        <section id="about" class="mb-4 text-white my-bk-green">
+            <div class="container p-5">
+                <!-- Row del titolo -->
+                <section class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="my-filler-box"></div>
+                    </div>
+                </section>
     
-        <div class="container">
-            <section class="row justify-content-center">
-                <div class="col-lg-3 col-md-3 col-sm-4">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+                <section class="row justify-content-center gy-3">
+                    <div class="col-12 col-md-6 mb-42">
+                        <div class="my-filler-box"></div>
+                    </div>
+    
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="my-filler-box"></div>
+                    </div>
+                    <div class="col-12">
+                        <div class="my-filler-box"></div>
+                    </div>
+                </section>
+    
+            </div>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-5 col-md-5 col-sm-5">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
+        </section>
+        <!-- Quinto blocco -->
+        <section id="contact" class="mb-4">
+            <div class="container">
+                <section class="row justify-content-center p-5">
+                    <div class="col-12">
+                        <div class="my-filler-box"></div>
+                        <div class="my-filler-box"></div>
+                        <div class="my-filler-box"></div>
+                        <div class="my-filler-box"></div>
+                        <div class="my-filler-box"></div>
+                    </div>
+                </section>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-10 col-md-10 col-sm-10">
-                    <div class="my-filler-box"></div>
-                </div>
+            </div>
+        </section>
+    </main>
 
-                <div class="col-lg-10 col-md-10 col-sm-10">
-                    <div class="my-filler-box"></div>
+    <footer class="my-light-bluegray text-white">
+        <section class="my-footer-top">
+            <div class="container">
+                <div class="row p-3 gx-2 gy-3">
+                    <div class="col-12 col-md-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In accusantium repellat officiis laborum fugiat impedit nostrum odio assumenda, ducimus error! Molestias itaque delectus, doloremque culpa asperiores aut praesentium deleniti expedita?
+                    </div>
+                    <div class="col-12 col-md-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, est. Repellendus reiciendis quas sint iste vitae consequatur nemo libero. Repellendus labore vero praesentium ipsa natus dolor voluptatum doloremque similique aliquam.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, laboriosam accusamus itaque vel, neque fugiat natus facere qui dignissimos, tenetur ipsum suscipit expedita! Voluptas inventore unde voluptatem quasi dolorem. Qui.
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-10 col-md-10 col-sm-10">
-                    <div class="my-filler-box"></div>
+        <section class="my-footer-bottom">
+            <div class="container">
+                <div class="row text-center p-4">
+                    <div class="col-12">Lorem ipsum dolor sit.</div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="row justify-content-center">
-                <div class="col-lg-10 col-md-10 col-sm-10">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-
-            <section class="row justify-content-center">
-                <div class="col-lg-1 col-md-2 col-sm-3">
-                    <div class="my-filler-box"></div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    </div>
+    </footer>
 </body>
 </html>

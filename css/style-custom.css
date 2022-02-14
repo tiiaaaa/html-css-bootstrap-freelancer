@@ -1,12 +1,3 @@
-.my-bk-blue{
-    background-color: rgb(6, 7, 78);
-    border: 1px solid black;
-}
-
-.my-bk-green{
-    background-color: rgb(6, 202, 153);
-    border: 1px solid black;
-}
 
 /* Box Riempitore */
 .my-filler-box{
@@ -15,6 +6,73 @@
     background-color: bisque ;
 }
 
-.my-mrg-bttm{
-    margin-bottom: 1rem;
+section#portfolio{
+    background-color: rgb(188, 255, 242);
 }
+
+section#about{
+    background-color: rgb(26, 188, 156);
+}
+
+/* Jumbotron */
+section#jumbotron{
+    background-color: rgb(26, 188, 156);
+}
+
+div.jumbo-box div#profession span{
+    text-transform: uppercase;
+}
+
+div.jumbo-box{
+    width: 500px;
+    margin: 0 auto;
+}
+
+div.jumbo-box img{
+    width: 250px;
+}
+
+div.jumbo-box h1{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+div.title-decoration{
+    width: 55%;
+}
+
+div.title-decoration div.line{
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+}
+
+/* MAIN sec.1*/
+img.picture{
+    width: 100%;
+}
+
+
+
+
+/* FOOTER */
+div.my-footer-top{
+    background-color: rgb(58, 84, 109);
+}
+
+div.my-footer-bottom{
+    background-color: rgb(44, 62, 80);
+}
+
+/* UTILITY CLASS */
+.my-bg-white{
+    background-color: white;
+}
+
+.my-bg-black{
+    background-color: black;
+}
+
+.my-light-bluegray{
+    background-color: rgb(44, 62, 80);
+} 
