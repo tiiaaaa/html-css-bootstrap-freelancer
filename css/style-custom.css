@@ -48,10 +48,13 @@ div.title-decoration div.line{
 }
 
 /* MAIN sec.1*/
-img.picture{
+div.img-block img.picture{
     width: 100%;
 }
 
+div.img-block, img.picture{
+    border-radius: 10px;
+}
 
 
 
